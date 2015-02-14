@@ -1,0 +1,18 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+ins.diffmod, del.diffmod,
+ins.diffins, del.diffins,
+ins.diffdel, del.diffdel {
+    text-decoration: inherit;
+    padding: 2px;
+    border-radius: 6px;
+}
+
+ins.diffmod, ins.diffins, ins.diffdel {
+    background-color: #4cff00;
+}
+del.diffmod, del.diffins, del.diffdel {
+    background-color: #ff6d6d;
+}
